@@ -1,0 +1,48 @@
+header {
+  height: 100px;
+  background-color: #444;
+  
+  
+}
+
+header ul {
+ text-align: right;
+
+}
+
+ul {
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+li {
+  /* justify-content: space-evenly; */
+}
+
+li a {
+  justify-content: space-evenly;
+  color: antiquewhite;
+  width: 200px;
+  height: 70px;
+
+}
+
+
+p {
+  width: 450px;
+  height: 300px;
+  overflow: auto;
+}
+
+button {
+  transition: 350ms;
+}
+
+button:hover{
+  background-color: orange;
+}
+
+footer {
+  height: 180px;
+  background-color: #444;
+}
